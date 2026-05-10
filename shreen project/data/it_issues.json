@@ -1,0 +1,1004 @@
+[
+  {
+    "issue": "My Windows 10 laptop takes forever to start and everything freezes after I log in.",
+    "category": "System Performance & Slowdown",
+    "symptoms": [
+      "slow startup",
+      "freezing after login",
+      "lagging",
+      "delayed response",
+      "fan noise",
+      "high CPU",
+      "memory full",
+      "programs crashing"
+    ],
+    "solution": "1. Press Ctrl + Shift + Esc to open Task Manager.\n2. Select the Startup tab.\n3. Disable non-essential startup applications with High impact.\n4. Open Settings > Apps and uninstall unused programs.\n5. Run Windows Update and install pending updates.\n6. Restart the computer.\n7. If performance remains poor, check disk usage in Task Manager and consider replacing an HDD with an SSD."
+  },
+  {
+    "issue": "My fan is loud all the time and the computer is super slow even with only one browser open.",
+    "category": "System Performance & Slowdown",
+    "symptoms": [
+      "slow startup",
+      "freezing after login",
+      "lagging",
+      "delayed response",
+      "fan noise",
+      "high CPU",
+      "memory full",
+      "programs crashing"
+    ],
+    "solution": "1. Open Task Manager.\n2. Sort processes by CPU usage.\n3. Identify applications using excessive CPU.\n4. Close unnecessary programs.\n5. Run Windows Security > Virus & threat protection > Full scan.\n6. Install all Windows and driver updates.\n7. Clean air vents and ensure proper airflow."
+  },
+  {
+    "issue": "Everything lags when I click anything. Even opening folders feels delayed.",
+    "category": "System Performance & Slowdown",
+    "symptoms": [
+      "slow startup",
+      "freezing after login",
+      "lagging",
+      "delayed response",
+      "fan noise",
+      "high CPU",
+      "memory full",
+      "programs crashing"
+    ],
+    "solution": "1. Open File Explorer.\n2. Right-click the system drive and choose Properties.\n3. Select Disk Cleanup and remove temporary files.\n4. Open Settings > System > Storage and enable Storage Sense.\n5. Ensure at least 15% free disk space remains.\n6. Restart the PC.\n7. Run sfc /scannow in Command Prompt as Administrator."
+  },
+  {
+    "issue": "My Windows 11 PC was fine last week and now it's slow after installing random apps.",
+    "category": "System Performance & Slowdown",
+    "symptoms": [
+      "slow startup",
+      "freezing after login",
+      "lagging",
+      "delayed response",
+      "fan noise",
+      "high CPU",
+      "memory full",
+      "programs crashing"
+    ],
+    "solution": "1. Open Settings > Apps > Installed apps.\n2. Sort by Install date.\n3. Remove recently installed unknown or unnecessary applications.\n4. Open Task Manager > Startup and disable unnecessary startup apps.\n5. Restart the PC.\n6. Test performance again.\n7. Use System Restore if slowdown began after a specific software install."
+  },
+  {
+    "issue": "My memory keeps filling up and programs crash for no reason.",
+    "category": "System Performance & Slowdown",
+    "symptoms": [
+      "slow startup",
+      "freezing after login",
+      "lagging",
+      "delayed response",
+      "fan noise",
+      "high CPU",
+      "memory full",
+      "programs crashing"
+    ],
+    "solution": "1. Open Task Manager.\n2. Select the Processes tab.\n3. Sort by Memory usage.\n4. Close applications consuming excessive RAM.\n5. Restart the PC.\n6. Ensure Virtual Memory is enabled under System Properties > Advanced > Performance > Advanced.\n7. Upgrade RAM if usage remains consistently high."
+  },
+  {
+    "issue": "Windows keeps trying to update and failing every single time.",
+    "category": "Windows Updates & Installation Errors",
+    "symptoms": [
+      "update failing",
+      "stuck update",
+      "update error",
+      "microsoft store spinning",
+      "installation failure",
+      "undoing changes"
+    ],
+    "solution": "1. Open Settings > Windows Update.\n2. Select Troubleshoot > Other troubleshooters.\n3. Run the Windows Update troubleshooter.\n4. Restart the computer.\n5. Open Command Prompt as Administrator.\n6. Run sfc /scannow.\n7. Run DISM /Online /Cleanup-Image /RestoreHealth.\n8. Retry Windows Update."
+  },
+  {
+    "issue": "The update is stuck at 100% and has been there for hours.",
+    "category": "Windows Updates & Installation Errors",
+    "symptoms": [
+      "update failing",
+      "stuck update",
+      "update error",
+      "microsoft store spinning",
+      "installation failure",
+      "undoing changes"
+    ],
+    "solution": "1. Wait at least 1 additional hour if disk activity is visible.\n2. If no activity, hold the power button for 10 seconds to shut down.\n3. Restart the PC.\n4. If recovery options appear, choose Startup Repair.\n5. After booting, open Windows Update and check update history.\n6. Retry the failed update."
+  },
+  {
+    "issue": "I get an error when trying to install Windows 11 updates and nothing goes through.",
+    "category": "Windows Updates & Installation Errors",
+    "symptoms": [
+      "update failing",
+      "stuck update",
+      "update error",
+      "microsoft store spinning",
+      "installation failure",
+      "undoing changes"
+    ],
+    "solution": "1. Ensure at least 20 GB free disk space.\n2. Disconnect unnecessary USB devices.\n3. Temporarily disable third-party antivirus.\n4. Open Settings > Windows Update.\n5. Click Check for updates.\n6. If failure continues, run the Windows Update troubleshooter.\n7. Use the Microsoft Installation Assistant if required."
+  },
+  {
+    "issue": "My PC restarted during an update and now it says undoing changes.",
+    "category": "Windows Updates & Installation Errors",
+    "symptoms": [
+      "update failing",
+      "stuck update",
+      "update error",
+      "microsoft store spinning",
+      "installation failure",
+      "undoing changes"
+    ],
+    "solution": "1. Allow the undo process to finish.\n2. Log in normally.\n3. Open Event Viewer or Windows Update history to identify the failed update.\n4. Run sfc /scannow.\n5. Free disk space if low.\n6. Retry updates after restarting."
+  },
+  {
+    "issue": "Microsoft Store won't install apps and keeps spinning forever.",
+    "category": "Windows Updates & Installation Errors",
+    "symptoms": [
+      "update failing",
+      "stuck update",
+      "update error",
+      "microsoft store spinning",
+      "installation failure",
+      "undoing changes"
+    ],
+    "solution": "1. Press Win + R.\n2. Type wsreset.exe and press Enter.\n3. Wait for Microsoft Store to reset.\n4. Open Settings > Apps > Installed apps.\n5. Select Microsoft Store > Advanced options.\n6. Choose Repair, then Reset if needed.\n7. Restart the PC."
+  },
+  {
+    "issue": "My computer suddenly goes blue and restarts before I can read anything.",
+    "category": "Blue Screen of Death (BSOD) & Booting Issues",
+    "symptoms": [
+      "blue screen",
+      "BSOD",
+      "automatic repair loop",
+      "black screen",
+      "no boot device",
+      "crashes on startup",
+      "safe mode only"
+    ],
+    "solution": "1. Disconnect non-essential USB devices.\n2. Boot into Windows.\n3. Open Device Manager.\n4. Update graphics, chipset, and storage drivers.\n5. Run Windows Memory Diagnostic.\n6. Run chkdsk /f.\n7. Review recent hardware or software changes and remove them if needed."
+  },
+  {
+    "issue": "It keeps saying automatic repair and never actually starts Windows.",
+    "category": "Blue Screen of Death (BSOD) & Booting Issues",
+    "symptoms": [
+      "blue screen",
+      "BSOD",
+      "automatic repair loop",
+      "black screen",
+      "no boot device",
+      "crashes on startup",
+      "safe mode only"
+    ],
+    "solution": "1. Enter Windows Recovery Environment.\n2. Select Troubleshoot > Advanced options.\n3. Run Startup Repair.\n4. If unsuccessful, open Command Prompt.\n5. Run bootrec /fixmbr.\n6. Run bootrec /fixboot.\n7. Run bootrec /rebuildbcd.\n8. Restart the computer."
+  },
+  {
+    "issue": "I log in and then only get a black screen with a mouse cursor.",
+    "category": "Blue Screen of Death (BSOD) & Booting Issues",
+    "symptoms": [
+      "blue screen",
+      "BSOD",
+      "automatic repair loop",
+      "black screen",
+      "no boot device",
+      "crashes on startup",
+      "safe mode only"
+    ],
+    "solution": "1. Press Ctrl + Shift + Esc.\n2. Open Task Manager.\n3. Select File > Run new task.\n4. Type explorer.exe and press Enter.\n5. If desktop loads, restart the PC.\n6. Update display drivers.\n7. Run sfc /scannow."
+  },
+  {
+    "issue": "My PC turns on but says no boot device found.",
+    "category": "Blue Screen of Death (BSOD) & Booting Issues",
+    "symptoms": [
+      "blue screen",
+      "BSOD",
+      "automatic repair loop",
+      "black screen",
+      "no boot device",
+      "crashes on startup",
+      "safe mode only"
+    ],
+    "solution": "1. Power off the PC.\n2. Remove external USB drives.\n3. Enter BIOS/UEFI settings.\n4. Confirm the internal drive is detected.\n5. Set the system drive as first boot device.\n6. Save changes and restart.\n7. If the drive is missing, inspect hardware connections or replace the drive."
+  },
+  {
+    "issue": "Windows crashes every time I start it normally but Safe Mode works.",
+    "category": "Blue Screen of Death (BSOD) & Booting Issues",
+    "symptoms": [
+      "blue screen",
+      "BSOD",
+      "automatic repair loop",
+      "black screen",
+      "no boot device",
+      "crashes on startup",
+      "safe mode only"
+    ],
+    "solution": "1. Boot into Safe Mode.\n2. Open Device Manager.\n3. Roll back recently updated drivers.\n4. Uninstall recently installed software.\n5. Run msconfig.\n6. Perform a clean boot by disabling non-Microsoft services.\n7. Restart normally and test."
+  },
+  {
+    "issue": "I forgot my Windows password and now I'm locked out.",
+    "category": "User Profile & Password Problems",
+    "symptoms": [
+      "forgot password",
+      "locked out",
+      "PIN not available",
+      "account disabled",
+      "corrupted profile",
+      "missing desktop"
+    ],
+    "solution": "1. On the sign-in screen, confirm the correct account is selected.\n2. If using a Microsoft account, choose I forgot my password.\n3. Complete online verification steps.\n4. If using a local account, select Reset password if security questions were configured.\n5. Create a new password.\n6. Sign in with the new credentials."
+  },
+  {
+    "issue": "It says my PIN isn't available and I can't get into Windows 11.",
+    "category": "User Profile & Password Problems",
+    "symptoms": [
+      "forgot password",
+      "locked out",
+      "PIN not available",
+      "account disabled",
+      "corrupted profile",
+      "missing desktop"
+    ],
+    "solution": "1. Select Sign-in options on the login screen.\n2. Choose Password instead of PIN.\n3. Log in with the account password.\n4. Open Settings > Accounts > Sign-in options.\n5. Remove the old PIN.\n6. Set up a new PIN."
+  },
+  {
+    "issue": "Windows says my account is disabled and won't let me log in.",
+    "category": "User Profile & Password Problems",
+    "symptoms": [
+      "forgot password",
+      "locked out",
+      "PIN not available",
+      "account disabled",
+      "corrupted profile",
+      "missing desktop"
+    ],
+    "solution": "1. Sign in using another administrator account if available.\n2. Open Computer Management > Local Users and Groups.\n3. Select Users.\n4. Open the affected account properties.\n5. Uncheck Account is disabled.\n6. Apply changes.\n7. Restart and test login."
+  },
+  {
+    "issue": "I changed my password and now OneDrive and apps keep asking me to sign in again.",
+    "category": "User Profile & Password Problems",
+    "symptoms": [
+      "forgot password",
+      "locked out",
+      "PIN not available",
+      "account disabled",
+      "corrupted profile",
+      "missing desktop"
+    ],
+    "solution": "1. Open Settings > Accounts > Email & accounts.\n2. Re-enter the updated password for Microsoft services.\n3. Open OneDrive and sign in again.\n4. Open Outlook or Office apps and update credentials.\n5. Restart the PC."
+  },
+  {
+    "issue": "My printer is on but Windows says it's offline.",
+    "category": "Drivers & Peripheral Connectivity (Printers, Bluetooth, etc.)",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Confirm the printer is powered on and connected to network or USB.\n2. Open Settings > Printers & scanners.\n3. Select the printer and open queue.\n4. Disable Use Printer Offline.\n5. Clear stuck print jobs.\n6. Restart the Print Spooler service.\n7. Print a test page."
+  },
+  {
+    "issue": "My Bluetooth headphones disappeared and the PC can't find them.",
+    "category": "Drivers & Peripheral Connectivity (Printers, Bluetooth, etc.)",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Ensure the headphones are in pairing mode.\n2. Open Settings > Bluetooth & devices.\n3. Toggle Bluetooth Off and On.\n4. Remove old pairing records.\n5. Click Add device > Bluetooth.\n6. Select the headphones.\n7. Update the Bluetooth adapter driver if pairing fails."
+  },
+  {
+    "issue": "My USB mouse stopped working out of nowhere.",
+    "category": "Drivers & Peripheral Connectivity (Printers, Bluetooth, etc.)",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Try another USB port.\n2. Restart the computer.\n3. Open Device Manager.\n4. Expand Mice and other pointing devices.\n5. Update or uninstall the mouse driver.\n6. Reconnect the mouse.\n7. Test with another mouse if needed."
+  },
+  {
+    "issue": "Second monitor is plugged in but stays black.",
+    "category": "Drivers & Peripheral Connectivity (Printers, Bluetooth, etc.)",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Confirm the monitor is powered on.\n2. Check cable connections.\n3. Press Win + P and select Extend.\n4. Open Settings > Display.\n5. Click Detect.\n6. Set correct resolution.\n7. Update graphics drivers."
+  },
+  {
+    "issue": "My webcam works in nothing. Meetings just show a black screen.",
+    "category": "Drivers & Peripheral Connectivity (Printers, Bluetooth, etc.)",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Close all apps using the camera.\n2. Open Settings > Privacy & security > Camera.\n3. Enable camera access.\n4. Open Device Manager.\n5. Update or enable the webcam device.\n6. Reopen the meeting application.\n7. Select the correct camera source."
+  },
+  {
+    "issue": "Windows says my disk is full but I barely saved anything.",
+    "category": "Disk Management & File System Errors",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Open Settings > System > Storage.\n2. Review storage usage categories.\n3. Delete temporary files.\n4. Empty Recycle Bin.\n5. Remove unused applications.\n6. Move large files to external storage.\n7. Enable Storage Sense."
+  },
+  {
+    "issue": "My external hard drive shows up but I can't open it.",
+    "category": "Disk Management & File System Errors",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Open Disk Management.\n2. Confirm the drive appears.\n3. If no drive letter exists, assign one.\n4. If the file system is corrupted, run chkdsk X: /f.\n5. Replace X with the drive letter.\n6. Reconnect the drive and test."
+  },
+  {
+    "issue": "I plugged in a new SSD and Windows doesn't see it anywhere.",
+    "category": "Disk Management & File System Errors",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Open Disk Management.\n2. Check for an uninitialized disk.\n3. If found, right-click and choose Initialize Disk.\n4. Create a New Simple Volume.\n5. Format as NTFS.\n6. Assign a drive letter.\n7. Verify access in File Explorer."
+  },
+  {
+    "issue": "Folders keep saying access denied even though it's my computer.",
+    "category": "Disk Management & File System Errors",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Right-click the folder and select Properties.\n2. Open the Security tab.\n3. Click Advanced.\n4. Change Owner to your user account.\n5. Grant Full Control permissions.\n6. Apply changes.\n7. Retry opening the folder."
+  },
+  {
+    "issue": "My PC says it found file system errors and wants to scan the drive every startup.",
+    "category": "Disk Management & File System Errors",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Open Command Prompt as Administrator.\n2. Run chkdsk C: /f /r.\n3. Type Y to schedule at restart.\n4. Restart the computer.\n5. Allow the scan to complete.\n6. Review SMART health with manufacturer tools if errors return.\n7. Back up important data immediately if drive health is poor."
+  },
+  {
+    "issue": "Word keeps saying it's unlicensed and now half the features are blocked.",
+    "category": "Microsoft Office Activation",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Open any Office application.\n2. Go to File > Account.\n3. Check the activation status.\n4. Select Sign in and use the licensed Microsoft account.\n5. If already signed in, choose Sign out, then sign in again.\n6. Click Update License if available.\n7. Restart the Office application.\n8. If still unlicensed, run Office Repair from Control Panel > Programs and Features."
+  },
+  {
+    "issue": "Word opens for a second and then closes every time I try to use it.",
+    "category": "Microsoft Word Crashing",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Hold Ctrl while launching Microsoft Word to open Safe Mode.\n2. If Word opens, go to File > Options > Add-ins.\n3. Disable COM Add-ins.\n4. Restart Word normally.\n5. Go to File > Account > Update Options > Update Now.\n6. If issue continues, run Quick Repair from Control Panel > Programs and Features."
+  },
+  {
+    "issue": "Excel locks up whenever I open my spreadsheet and I can't do anything.",
+    "category": "Excel Freezing",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Hold Ctrl while opening Excel to start Safe Mode.\n2. Open the workbook.\n3. Disable Add-ins from File > Options > Add-ins.\n4. Save the workbook with a new name.\n5. Check formulas for external links or volatile functions.\n6. Update Office.\n7. If needed, use Open and Repair from File > Open."
+  },
+  {
+    "issue": "My emails are stuck in Outbox and nothing sends no matter how many times I click send.",
+    "category": "Outlook Not Sending Email",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Open Outlook.\n2. Go to Send/Receive.\n3. Ensure Work Offline is disabled.\n4. Verify internet connectivity.\n5. Open File > Account Settings > Account Settings.\n6. Select the account and choose Repair.\n7. Delete or resend stuck messages from Outbox.\n8. Restart Outlook."
+  },
+  {
+    "issue": "My presentation won't open and I need it for a meeting soon.",
+    "category": "PowerPoint Not Opening",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Open PowerPoint first.\n2. Select File > Open > Browse.\n3. Choose the presentation.\n4. Click the arrow next to Open.\n5. Select Open and Repair.\n6. Save the file with a new name.\n7. If still failing, open PowerPoint in Safe Mode by holding Ctrl while launching."
+  },
+  {
+    "issue": "My document formatting is a mess and every paragraph changes when I edit one thing.",
+    "category": "Word Formatting Problems",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Press Ctrl + A to select all text.\n2. Go to Home > Clear All Formatting.\n3. Apply built-in Styles such as Normal or Heading.\n4. Open Paragraph settings and check spacing values.\n5. Turn on Show/Hide ¶ to inspect hidden formatting marks.\n6. Save the corrected document."
+  },
+  {
+    "issue": "Excel is showing weird #VALUE and #NAME errors everywhere.",
+    "category": "Excel Formula Errors",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Select a cell showing the error.\n2. Review the formula bar for misspelled function names.\n3. Confirm cell references are valid.\n4. Check for text values where numbers are expected.\n5. Use Formulas > Error Checking.\n6. Correct separators based on regional settings.\n7. Recalculate using Formulas > Calculate Now."
+  },
+  {
+    "issue": "Outlook search finds nothing even when I know the email is there.",
+    "category": "Outlook Search Not Working",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Open Outlook.\n2. Go to File > Options > Search.\n3. Select Indexing Options.\n4. Ensure Microsoft Outlook is included.\n5. Click Advanced > Rebuild.\n6. Restart Outlook.\n7. Allow indexing to complete before retesting."
+  },
+  {
+    "issue": "Microsoft Teams shows a black screen instead of my camera.",
+    "category": "Teams Camera Issue",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Close all other apps using the camera.\n2. Open Teams > Settings > Devices.\n3. Select the correct camera.\n4. Open Windows Settings > Privacy & security > Camera.\n5. Enable camera access for desktop apps.\n6. Restart Teams.\n7. Update camera drivers if needed."
+  },
+  {
+    "issue": "All Office apps are painfully slow to open now.",
+    "category": "Office Slow Performance",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Restart the computer.\n2. Open one Office app.\n3. Go to File > Options > Add-ins.\n4. Disable unnecessary Add-ins.\n5. Update Office from File > Account > Update Now.\n6. Run Office Quick Repair.\n7. Check disk space and system performance."
+  },
+  {
+    "issue": "Word says it can't save my file and I already worked on it for hours.",
+    "category": "Word Cannot Save File",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Select File > Save As.\n2. Save to Desktop with a new filename.\n3. Ensure the destination folder is writable.\n4. Check available disk space.\n5. Disable Protected View temporarily if file came from email.\n6. If OneDrive is used, verify sync status.\n7. Save a backup copy immediately."
+  },
+  {
+    "issue": "My spreadsheet says the file is corrupted and won't open properly.",
+    "category": "Excel File Corrupted",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Open Excel.\n2. Select File > Open > Browse.\n3. Highlight the file.\n4. Click the arrow next to Open.\n5. Choose Open and Repair.\n6. If Repair fails, choose Extract Data.\n7. Save recovered content to a new workbook."
+  },
+  {
+    "issue": "Outlook keeps asking for my password over and over all day.",
+    "category": "Outlook Password Prompt",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Verify webmail login works with the same password.\n2. Open Outlook > File > Account Settings.\n3. Remove saved incorrect credentials in Windows Credential Manager.\n4. Re-enter the correct password.\n5. Ensure modern authentication is enabled if required.\n6. Restart Outlook."
+  },
+  {
+    "issue": "My slides look broken on another computer and all the fonts changed.",
+    "category": "PowerPoint Fonts Missing",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Open the presentation.\n2. Go to File > Options > Save.\n3. Enable Embed fonts in the file.\n4. Save the presentation.\n5. If custom fonts are unavailable, replace them with standard fonts.\n6. Reopen the file on the other device to verify."
+  },
+  {
+    "issue": "Word stopped underlining mistakes and spell check does nothing.",
+    "category": "Word Spell Check Not Working",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Open Word.\n2. Go to File > Options > Proofing.\n3. Ensure Check spelling as you type is enabled.\n4. Select the text and go to Review > Language.\n5. Set the correct proofing language.\n6. Make sure Do not check spelling or grammar is unchecked.\n7. Restart Word."
+  },
+  {
+    "issue": "Excel keeps printing tiny unreadable pages instead of the sheet normally.",
+    "category": "Excel Printing Problems",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Open the worksheet.\n2. Go to Page Layout.\n3. Check Scale to Fit settings.\n4. Set Width and Height to Automatic if needed.\n5. Open File > Print.\n6. Adjust orientation and margins.\n7. Use Set Print Area only if required.\n8. Preview before printing."
+  },
+  {
+    "issue": "Outlook says my data file is full and now mail is acting weird.",
+    "category": "Outlook PST File Full",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Open Outlook.\n2. Go to File > Tools > Mailbox Cleanup.\n3. Empty Deleted Items and Junk folders.\n4. Archive old emails.\n5. Compact the data file from Account Settings > Data Files > Settings.\n6. Restart Outlook.\n7. Consider moving to Online Archive if available."
+  },
+  {
+    "issue": "People can hear me in Teams but I can't hear anyone else.",
+    "category": "Teams Audio Problem",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Open Teams > Settings > Devices.\n2. Under Speaker, choose the correct output device.\n3. Increase volume in Windows Sound settings.\n4. Test the speaker using Make a test call.\n5. Disconnect and reconnect headset devices.\n6. Update audio drivers if necessary."
+  },
+  {
+    "issue": "Office won't install and keeps failing halfway through.",
+    "category": "Office Installation Error",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Restart the computer.\n2. Remove previous Office versions using Control Panel > Programs and Features.\n3. Download the latest installer from the Microsoft account portal.\n4. Temporarily disable third-party antivirus.\n5. Run the installer as Administrator.\n6. Ensure stable internet connectivity.\n7. Retry installation."
+  },
+  {
+    "issue": "My OneNote notes aren't syncing between my laptop and phone.",
+    "category": "OneNote Sync Issue",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Open OneNote.\n2. Confirm you are signed into the correct Microsoft account.\n3. Select File > Info > View Sync Status.\n4. Click Sync All.\n5. Resolve any section conflicts shown.\n6. Check OneDrive storage space.\n7. Restart OneNote and verify notes sync."
+  },
+  {
+    "issue": "My Zoom calls keep dropping every 10 minutes. The internet just randomly cuts out and reconnects a minute later. It's embarrassing.",
+    "category": "Intermittent WiFi Connection (drops frequently)",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Log into your router's administrative panel.\n2. Navigate to the Wireless Settings and change the WiFi channel from 'Auto' to a less congested channel (e.g., 1, 6, or 11 for 2.4GHz).\n3. Update your computer's wireless network adapter drivers via Device Manager.\n4. Monitor the connection; if drops persist, disable 'Allow the computer to turn off this device to save power' in the adapter's Power Management properties."
+  },
+  {
+    "issue": "The wifi icon on my laptop keeps turning into a globe and disconnecting, but my phone right next to it never loses connection.",
+    "category": "Intermittent WiFi Connection (drops frequently)",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Open an elevated Command Prompt (Run as Administrator).\n2. Execute the command: netsh winsock reset.\n3. Execute the command: netsh int ip reset.\n4. Restart the laptop to apply the network stack reset."
+  },
+  {
+    "issue": "My smart TV buffers constantly and loses connection to the router in the next room, but it used to work perfectly.",
+    "category": "Intermittent WiFi Connection (drops frequently)",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Separate your 2.4GHz and 5GHz network bands into two distinct SSIDs within the router settings.\n2. Connect the Smart TV strictly to the 2.4GHz network for better wall penetration and range.\n3. Check the router manufacturer's website and apply the latest firmware update."
+  },
+  {
+    "issue": "Everything randomly kicks me off the internet at exactly 8 PM every single night without fail.",
+    "category": "Intermittent WiFi Connection (drops frequently)",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Access your router's LAN/DHCP settings.\n2. Check the DHCP Lease Time; increase it to 7 days or 10080 minutes instead of a 24-hour cycle.\n3. Verify there are no parental control schedules or access policies enabled that block MAC addresses at specified times."
+  },
+  {
+    "issue": "It says I'm connected to the wifi but underneath it says 'No Internet'. The spinning wheel is killing me, I can't even open Google.",
+    "category": "Connected No Internet Errors",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Verify the physical LED status lights on the modem. Ensure the 'Online' or 'WAN' light is solid.\n2. Power cycle both the modem and router by unplugging them from power for 60 seconds.\n3. Plug the modem in first, wait for solid lights, then plug in the router."
+  },
+  {
+    "issue": "My Windows PC has a yellow triangle over the wifi bars. I've restarted it three times and nothing.",
+    "category": "Connected No Internet Errors",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Open Command Prompt as Administrator.\n2. Type ipconfig /release and press Enter.\n3. Type ipconfig /renew and press Enter.\n4. Type ipconfig /flushdns and press Enter, then attempt to browse."
+  },
+  {
+    "issue": "My internet works perfectly on my phone, but my laptop says 'connected without internet' no matter what network I join.",
+    "category": "Connected No Internet Errors",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Open Network Connections (ncpa.cpl).\n2. Right-click your Wi-Fi adapter and select Properties.\n3. Uncheck 'Internet Protocol Version 6 (TCP/IPv6)'.\n4. Select 'Internet Protocol Version 4 (TCP/IPv4)', click Properties, and ensure it is set to 'Obtain an IP address automatically'."
+  },
+  {
+    "issue": "I'm connected to the hotel wifi, but that stupid login page where you put your room number won't pop up.",
+    "category": "Connected No Internet Errors",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Open an incognito or private browsing window.\n2. Manually navigate to a non-HTTPS site, such as http://neverssl.com or type 1.1.1.1 in the URL bar to force the captive portal intercept.\n3. If it still fails, temporarily disable any custom DNS servers or VPN clients on your device."
+  },
+  {
+    "issue": "Downloads are taking hours for a tiny PDF. It's crawling. I'm supposed to have gigabit speed.",
+    "category": "Slow Connection Speeds & High Latency",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Perform a wired speed test directly from the modem to a computer via Ethernet to rule out ISP throttling.\n2. If wired speeds are normal, log into the router and disable Quality of Service (QoS) or device prioritization settings.\n3. Use a Wi-Fi analyzer app to check for severe channel overlap and switch to the least crowded channel."
+  },
+  {
+    "issue": "Gaming is literally impossible right now. I'm lagging and rubberbanding everywhere, my ping is like 400ms.",
+    "category": "Slow Connection Speeds & High Latency",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Disconnect other devices on the network downloading large files or streaming 4K video to eliminate bandwidth saturation.\n2. Run a bufferbloat test online.\n3. If bufferbloat is high, enable Smart Queue Management (SQM) on your router if supported, or limit overall bandwidth to 90% of your maximum speed."
+  },
+  {
+    "issue": "Netflix is super blurry and keeps stopping to load. My router is literally five feet away.",
+    "category": "Slow Connection Speeds & High Latency",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Connect the TV directly to the router using a Cat6 Ethernet cable to bypass wireless interference entirely.\n2. If wireless is mandatory, ensure the TV is connected to the 5GHz band rather than the 2.4GHz band for higher throughput.\n3. Restart the TV by holding the power button on the remote until it reboots."
+  },
+  {
+    "issue": "Speedtest says I have 500mbps but web pages take 30 seconds to load like it's 1995.",
+    "category": "Slow Connection Speeds & High Latency",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Temporarily disable any active VPN connections or proxy extensions in your browser.\n2. Clear your browser cache and cookies.\n3. Change your DNS servers to a faster public resolver (e.g., Primary: 8.8.8.8, Secondary: 8.8.4.4) in your network adapter settings."
+  },
+  {
+    "issue": "I unplugged the black box and plugged it back in and now everything is way worse. The wifi name is completely gone.",
+    "category": "Router/Modem Hardware Reset & Configuration",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Verify if the 'Reset' button was pressed instead of just unplugging the power.\n2. If the network name is missing, the router has likely reverted to factory defaults. Look for a sticker on the back of the router with the default SSID and password.\n3. Connect to the default SSID and re-run the router's initial setup wizard."
+  },
+  {
+    "issue": "I held down the tiny button on the back with a paperclip because the internet was slow, and now none of my smart home stuff works.",
+    "category": "Router/Modem Hardware Reset & Configuration",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. You have performed a hard factory reset. Log into the router's default gateway (usually 192.168.1.1 or 10.0.0.1).\n2. Navigate to the Wireless Settings.\n3. Reconfigure the SSID (Network Name) and Password to exactly match your old network details (case-sensitive). Your smart devices will automatically reconnect."
+  },
+  {
+    "issue": "The globe light on the front of my router is glowing solid red instead of white. I've restarted it twice.",
+    "category": "Router/Modem Hardware Reset & Configuration",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. A red globe/WAN light indicates no connection from the ISP. Check the physical Ethernet cable connecting the modem to the router's WAN port.\n2. Bypass the router by plugging a computer directly into the modem via Ethernet. If there is still no internet, contact your ISP to report an outage or line issue."
+  },
+  {
+    "issue": "I bought a fancy new mesh router and plugged it into the old one the cable company gave me. Now everything is confused and nothing loads right.",
+    "category": "Router/Modem Hardware Reset & Configuration",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. You are experiencing Double NAT. Log into the ISP-provided modem/router combo unit.\n2. Locate the 'Bridge Mode' setting and enable it to disable the routing functionality of the ISP device.\n3. Connect port 1 of the ISP device to the WAN port of your new mesh router and restart both units."
+  },
+  {
+    "issue": "My browser keeps throwing an error that says 'DNS server isn't responding'. What does that even mean?",
+    "category": "DNS Issues & IP Address Conflicts",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Open Command Prompt as Administrator.\n2. Execute ipconfig /flushdns.\n3. Go to Network Connections, right-click your adapter, select Properties, and double-click IPv4.\n4. Select 'Use the following DNS server addresses' and enter 1.1.1.1 for Preferred and 1.0.0.1 for Alternate. Save and restart the browser."
+  },
+  {
+    "issue": "Windows popped up a message saying there is an IP address conflict with another device on the network.",
+    "category": "DNS Issues & IP Address Conflicts",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Open Command Prompt and type ipconfig /release followed by Enter.\n2. Type ipconfig /renew and press Enter to request a new IP address from the DHCP server.\n3. To prevent future conflicts, log into your router and expand the DHCP pool range, or set Static IP assignments outside the dynamic pool."
+  },
+  {
+    "issue": "Some websites like YouTube load totally fine, but half the other sites I visit just say 'Site cannot be reached'.",
+    "category": "DNS Issues & IP Address Conflicts",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. This indicates an MTU size or DNS caching issue. First, clear your browser cache.\n2. Open Command Prompt as Admin and run ipconfig /flushdns.\n3. If the issue persists, log into your router's WAN settings and verify the MTU size is set correctly (typically 1500 for Cable, 1492 for PPPoE/DSL)."
+  },
+  {
+    "issue": "My work portal won't load at all, it just says server not found, but I can get to it on my cell phone data perfectly fine.",
+    "category": "DNS Issues & IP Address Conflicts",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Check your local hosts file. Open Notepad as Administrator and navigate to C:\\Windows\\System32\\drivers\\etc\\hosts.\n2. Ensure there are no erroneous entries routing your work portal to a dead loopback IP.\n3. Temporarily disable any third-party antivirus web shields that might be blocking the specific URL resolution."
+  },
+  {
+    "issue": "I totally forgot my wifi password and the sticker on the bottom of the router peeled off years ago. How do I get my new iPad on the internet?",
+    "category": "Forgotten WiFi Passwords & Security Protocols (WPA2/WPA3)",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. On a Windows PC already connected to the Wi-Fi, open the Control Panel and go to Network and Sharing Center.\n2. Click on your Wi-Fi network name next to 'Connections'.\n3. Click 'Wireless Properties', navigate to the 'Security' tab, and check the box that says 'Show characters' to reveal the password."
+  },
+  {
+    "issue": "My new iPhone refuses to connect and says my wifi has 'weak security'. It's an older router but it always worked before.",
+    "category": "Forgotten WiFi Passwords & Security Protocols (WPA2/WPA3)",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Log into your router's web interface.\n2. Navigate to Wireless Settings -> Security.\n3. Change the security mode from WEP or WPA to 'WPA2-PSK (AES)' or 'WPA3' if available.\n4. Save the changes. You will need to 'Forget' the network on all your devices and reconnect with the password."
+  },
+  {
+    "issue": "I successfully changed my wifi password yesterday to make it more secure, but now my wireless printer is completely dead to me and won't print.",
+    "category": "Forgotten WiFi Passwords & Security Protocols (WPA2/WPA3)",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. On the printer's physical touchscreen, navigate to the Network or Wireless Settings menu.\n2. Select 'Restore Network Defaults' to clear the old credentials.\n3. Run the 'Wireless Setup Wizard', select your network, and input the new Wi-Fi password to re-establish the connection to your LAN."
+  },
+  {
+    "issue": "Whenever I turn on my work VPN, my home internet stops working completely. I can't even listen to Spotify.",
+    "category": "VPN Connectivity Problems",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Contact your IT department to verify if 'Split Tunneling' is disabled by policy. If disabled, all traffic routes through the corporate network.\n2. If you have admin rights, check your VPN client settings and enable 'Enable local LAN access'.\n3. Verify that your home router's subnet (e.g., 10.0.0.x) does not conflict with your corporate VPN subnet."
+  },
+  {
+    "issue": "My GlobalProtect VPN says 'Connected', but I still can't access any of the internal company network drives or intranet sites.",
+    "category": "VPN Connectivity Problems",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Open Command Prompt and type ipconfig /flushdns to clear local DNS caches.\n2. Type route print to verify that the routing tables have correctly updated to push internal traffic through the VPN tunnel interface.\n3. Disconnect the VPN, restart the 'PanGPS' service in Windows Services, and reconnect."
+  },
+  {
+    "issue": "The VPN keeps randomly dropping and reconnecting every time I try to download a big file or query the database.",
+    "category": "VPN Connectivity Problems",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Open your VPN client settings and change the connection protocol from UDP to TCP, which is more reliable for large data transfers.\n2. Lower the MTU size on your physical network adapter to 1350 to prevent packet fragmentation inside the VPN tunnel.\n3. Update your VPN client software to the latest version."
+  },
+  {
+    "issue": "I keep getting a TLS handshake error when trying to connect to the Cisco AnyConnect client. It was working yesterday.",
+    "category": "VPN Connectivity Problems",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Check your computer's system date and time. An incorrect clock will cause TLS certificate validation to fail.\n2. Ensure your local network is not blocking IPSec (UDP port 500/4500) or SSL (TCP port 443).\n3. Reinstall the Cisco AnyConnect client to repair corrupted root certificates."
+  },
+  {
+    "issue": "The wifi is totally dead in my bedroom. It's perfectly fast in the living room, but the second I walk down the hall, it drops to zero bars.",
+    "category": "Signal Interference & Range Issues",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Move the router to a centralized, elevated location in the home, free from dense physical obstructions like concrete walls or metal appliances.\n2. Ensure the router antennas are positioned correctly (usually straight up).\n3. If distance is the factor, consider implementing a mesh Wi-Fi system or a wired wireless access point (WAP) closer to the bedroom."
+  },
+  {
+    "issue": "I swear, whenever someone runs the microwave in the kitchen, my bluetooth headphones and my laptop wifi completely drop out.",
+    "category": "Signal Interference & Range Issues",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Microwaves and Bluetooth operate on the 2.4GHz frequency, causing severe electromagnetic interference.\n2. Connect your laptop to the router's 5GHz network band, which is immune to microwave interference.\n3. Ensure your router is placed at least 10 feet away from the kitchen and the microwave."
+  },
+  {
+    "issue": "I live in a massive apartment building and when I click the wifi list, there are like 50 networks showing. My internet is super slow and I think it's because of my neighbors.",
+    "category": "Signal Interference & Range Issues",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Download a Wi-Fi Analyzer application to map the airspace.\n2. Identify which 2.4GHz channels are heavily saturated by neighboring networks.\n3. Log into your router and manually set your 2.4GHz channel to the least congested non-overlapping channel (1, 6, or 11). Move critical devices to 5GHz."
+  },
+  {
+    "issue": "My computer keeps saying there's a problem with the drive and now I'm scared it's about to die.",
+    "category": "Disk Errors",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Save all open work immediately.\n2. Open File Explorer and right-click the system drive.\n3. Select Properties > Tools.\n4. Under Error checking, click Check.\n5. If prompted, schedule a scan and restart the PC.\n6. Open Command Prompt as Administrator.\n7. Run: chkdsk /f /r\n8. Back up important files if errors continue."
+  },
+  {
+    "issue": "Every time I type my password it's wrong because Caps Lock is on and I don't notice.",
+    "category": "Caps Lock Notification",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Press the Caps Lock key once to turn it off.\n2. Open Settings > Accessibility > Keyboard.\n3. Enable sound notifications for Caps Lock if available.\n4. Test typing in Notepad before entering the password.\n5. Clean the keyboard if the key is sticking."
+  },
+  {
+    "issue": "Microsoft Store won't open or download anything. It just spins forever.",
+    "category": "Windows Store Problems",
+    "symptoms": [
+      "general issue",
+      "technical problem"
+    ],
+    "solution": "1. Press Win + R.\n2. Type: wsreset.exe\n3. Press Enter and wait for the reset to complete.\n4. Open Settings > Apps > Installed apps.\n5. Locate Microsoft Store.\n6. Choose Advanced options > Repair.\n7. If needed, choose Reset.\n8. Restart the computer and test again."
+  },
+  {
+    "issue": "My laptop battery dies way too fast now. It barely lasts an hour.",
+    "category": "Battery Drain",
+    "symptoms": [
+      "battery dying fast",
+      "low battery",
+      "not charging",
+      "battery health poor"
+    ],
+    "solution": "1. Open Settings > System > Power & battery.\n2. Review battery usage by app.\n3. Close unnecessary background applications.\n4. Reduce screen brightness.\n5. Enable Battery saver mode.\n6. Update Windows and device drivers.\n7. If battery health is poor, consider battery replacement."
+  },
+  {
+    "issue": "My laptop touchpad suddenly stopped working and I don't have a mouse with me.",
+    "category": "Touchpad Not Working",
+    "symptoms": [
+      "touchpad not responding",
+      "cursor not moving",
+      "touchpad disabled"
+    ],
+    "solution": "1. Press the laptop function key combination that enables the touchpad (often Fn + a function key).\n2. Open Settings > Bluetooth & devices > Touchpad.\n3. Ensure Touchpad is turned On.\n4. Restart the laptop.\n5. Open Device Manager.\n6. Update or reinstall the touchpad driver.\n7. If still not working, use an external mouse temporarily."
+  },
+  {
+    "issue": "My computer has been stuck on updating for hours and I don't know if I should turn it off.",
+    "category": "Stuck Update Screen",
+    "symptoms": [
+      "stuck on updating",
+      "update frozen",
+      "update not finishing"
+    ],
+    "solution": "1. Wait at least 2 hours if disk activity is visible.\n2. If completely frozen, hold the power button for 10 seconds.\n3. Turn the PC back on.\n4. If it returns to recovery options, choose Troubleshoot > Advanced options > Startup Repair.\n5. Once booted, open Windows Update.\n6. Run the Update troubleshooter.\n7. Retry updates after restarting."
+  },
+  {
+    "issue": "Wi-Fi connects but says no internet and something about IP configuration.",
+    "category": "Internet No IP Address",
+    "symptoms": [
+      "no IP address",
+      "IP configuration error",
+      "wifi connected no internet"
+    ],
+    "solution": "1. Restart the router and computer.\n2. Open Command Prompt as Administrator.\n3. Run: ipconfig /release\n4. Run: ipconfig /renew\n5. Run: netsh int ip reset\n6. Restart the PC.\n7. Forget the Wi-Fi network and reconnect using the password."
+  },
+  {
+    "issue": "Programs keep saying not enough memory even when I only opened a few things.",
+    "category": "Not Enough Memory",
+    "symptoms": [
+      "not enough memory",
+      "RAM full",
+      "out of memory error"
+    ],
+    "solution": "1. Press Ctrl + Shift + Esc to open Task Manager.\n2. Check Memory usage in the Processes tab.\n3. Close unused high-memory applications.\n4. Restart the computer.\n5. Open System Properties > Advanced > Performance Settings > Advanced.\n6. Under Virtual memory, ensure paging file is system managed.\n7. If issue persists, consider adding RAM."
+  },
+  {
+    "issue": "I log in and then just get a black screen with a cursor. Nothing else happens.",
+    "category": "Black Screen After Login",
+    "symptoms": [
+      "black screen",
+      "no desktop after login",
+      "cursor only"
+    ],
+    "solution": "1. Press Ctrl + Shift + Esc to open Task Manager.\n2. Click File > Run new task.\n3. Type: explorer.exe\n4. Press Enter.\n5. If desktop appears, restart the PC.\n6. Update graphics drivers.\n7. Run: sfc /scannow from Command Prompt as Administrator."
+  },
+  {
+    "issue": "Every time I open folders, File Explorer crashes and closes.",
+    "category": "File Explorer Crashing",
+    "symptoms": [
+      "file explorer crash",
+      "folders crashing",
+      "explorer closes",
+      "windows explorer not responding"
+    ],
+    "solution": "1. Open Task Manager.\n2. Restart Windows Explorer.\n3. Open Command Prompt as Administrator.\n4. Run: sfc /scannow\n5. Clear File Explorer history from Folder Options.\n6. Disable third-party shell extensions if recently installed.\n7. Restart the computer."
+  },
+  {
+    "issue": "My screen keeps flickering and it's driving me crazy.",
+    "category": "Screen Flickering",
+    "symptoms": [
+      "screen flickering",
+      "display flashing",
+      "monitor blinking"
+    ],
+    "solution": "1. Check whether Task Manager also flickers.\n2. If yes, likely display driver issue.\n3. Open Device Manager.\n4. Expand Display adapters.\n5. Update or roll back the graphics driver.\n6. Open Display settings and set the recommended refresh rate.\n7. Test with another monitor or cable if external display is used."
+  },
+  {
+    "issue": "My flash drive lets me open files but won't let me save anything to it.",
+    "category": "USB Drive Read Only",
+    "symptoms": [
+      "USB read only",
+      "cannot save to USB",
+      "write protected flash drive"
+    ],
+    "solution": "1. Check if the USB drive has a physical lock switch and unlock it.\n2. Open Command Prompt as Administrator.\n3. Run: diskpart\n4. Run: list disk\n5. Run: select disk X (replace X with the USB drive number)\n6. Run: attributes disk clear readonly\n7. Exit DiskPart and test writing files again."
+  },
+  {
+    "issue": "My PC takes forever to shut down every single time.",
+    "category": "Slow Shutdown",
+    "symptoms": [
+      "slow shutdown",
+      "takes long to turn off",
+      "shutdown freezing"
+    ],
+    "solution": "1. Open Task Manager and close running apps before shutdown.\n2. Open Control Panel > Power Options.\n3. Choose what the power buttons do.\n4. Disable Fast Startup temporarily and test.\n5. Run Windows Update.\n6. Check Startup apps and disable unnecessary items.\n7. Restart and test shutdown speed."
+  },
+  {
+    "issue": "My webcam works nowhere and apps say camera access is blocked.",
+    "category": "Camera Access Blocked",
+    "symptoms": [
+      "camera blocked",
+      "webcam not working",
+      "camera access denied"
+    ],
+    "solution": "1. Open Settings > Privacy & security > Camera.\n2. Turn on Camera access.\n3. Turn on Let apps access your camera.\n4. Turn on Let desktop apps access your camera.\n5. Restart the affected app.\n6. Update the camera driver in Device Manager."
+  },
+  {
+    "issue": "All my desktop icons vanished and now my desktop is empty.",
+    "category": "Desktop Icons Missing",
+    "symptoms": [
+      "desktop icons gone",
+      "empty desktop",
+      "icons disappeared"
+    ],
+    "solution": "1. Right-click an empty area of the desktop.\n2. Select View.\n3. Ensure Show desktop icons is checked.\n4. Restart Windows Explorer from Task Manager.\n5. If using tablet mode or multiple monitors, check display settings.\n6. Confirm files still exist in C:sersurNameesktop."
+  },
+  {
+    "issue": "Windows won't let me rename files and keeps saying it's being used somewhere.",
+    "category": "Cannot Rename Files",
+    "symptoms": [
+      "cannot rename",
+      "file in use error",
+      "rename not allowed"
+    ],
+    "solution": "1. Close any program that may have the file open.\n2. Open Task Manager and end related app processes.\n3. Try renaming again.\n4. Restart File Explorer.\n5. If still locked, restart the computer.\n6. Use Safe Mode if another process keeps holding the file."
+  },
+  {
+    "issue": "The fan is loud and CPU stays at 100% even when I'm barely doing anything.",
+    "category": "High CPU Usage",
+    "symptoms": [
+      "100% CPU",
+      "high CPU usage",
+      "fan loud",
+      "system overheating"
+    ],
+    "solution": "1. Open Task Manager.\n2. Sort processes by CPU usage.\n3. Identify the process consuming resources.\n4. Close unnecessary applications.\n5. Run a malware scan with Windows Security.\n6. Disable unnecessary startup apps.\n7. Update the app causing high usage or reinstall it."
+  },
+  {
+    "issue": "My tablet laptop won't rotate the screen anymore when I turn it.",
+    "category": "Auto Rotate Not Working",
+    "symptoms": [
+      "screen not rotating",
+      "rotation lock",
+      "tablet mode broken"
+    ],
+    "solution": "1. Open Settings > System > Display.\n2. Ensure Rotation lock is Off.\n3. Restart the device.\n4. Open Device Manager.\n5. Expand Sensors.\n6. Enable or update motion sensor drivers.\n7. Test rotating the device again."
+  },
+  {
+    "issue": "Recycle Bin says it's full but won't empty no matter what I click.",
+    "category": "Cannot Empty Recycle Bin",
+    "symptoms": [
+      "recycle bin full",
+      "cannot delete",
+      "recycle bin error"
+    ],
+    "solution": "1. Right-click Recycle Bin and choose Empty Recycle Bin.\n2. If it fails, open Command Prompt as Administrator.\n3. Run: rd /s /q C:Recycle.bin\n4. Restart the computer.\n5. Windows will rebuild the Recycle Bin automatically."
+  },
+  {
+    "issue": "Some windows open somewhere invisible and I can't drag them back.",
+    "category": "Programs Open Off Screen",
+    "symptoms": [
+      "window off screen",
+      "invisible window",
+      "cannot see program"
+    ],
+    "solution": "1. Click the program icon on the taskbar.\n2. Press Alt + Space.\n3. Press M for Move.\n4. Use arrow keys to bring the window onto the screen.\n5. Press Enter when visible.\n6. If multiple monitor settings changed, open Display settings and detect displays."
+  }
+]
